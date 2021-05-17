@@ -171,7 +171,7 @@ Add a New Project
     });
 };
 
-// const pageHTML = generatePage(mockData);
+const pageHTML = generatePage(mockData);
 promptUser()
   .then(promptProject)
   .then(portfolioData => {
